@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Problem6
+namespace Problem15
 {
 	class MainClass
 	{
@@ -12,11 +12,11 @@ namespace Problem6
 
 			for (int i = 0; i < str.Length; i++) {
 				if (Convert.ToInt32 (str [i]) > max) {
-					max = str [i];
+					max = Convert.ToInt32 (str [i]);
 				}
 
 				if (Convert.ToInt32 (str [i]) < min) {
-					min = str [i];
+					min = Convert.ToInt32 (str [i]);
 				}
 			}
 
