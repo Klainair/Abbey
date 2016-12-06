@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 
+//master
 namespace Problem41
 {
 	class MainClass
